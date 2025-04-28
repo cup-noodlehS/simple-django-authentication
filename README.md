@@ -56,19 +56,6 @@ python src/manage.py runserver
 
 The development server will start at `http://127.0.0.1:8000/`
 
-## Project Structure
-
-```
-django-auth-setup/
-├── manage.py
-├── requirements.txt
-├── venv/
-└── project/
-    ├── __init__.py
-    ├── settings.py
-    ├── urls.py
-    └── wsgi.py
-```
 
 ## Features
 
