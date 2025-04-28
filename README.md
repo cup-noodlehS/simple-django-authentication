@@ -41,17 +41,17 @@ pip install -r requirements.txt
 
 ### 5. Run Migrations
 ```bash
-python manage.py migrate
+python src/manage.py migrate
 ```
 
 ### 6. Create Superuser (Optional)
 ```bash
-python manage.py createsuperuser
+python src/manage.py createsuperuser
 ```
 
 ### 7. Run Development Server
 ```bash
-python manage.py runserver
+python src/manage.py runserver
 ```
 
 The development server will start at `http://127.0.0.1:8000/`
@@ -76,15 +76,4 @@ django-auth-setup/
 - Login and registration functionality
 - Password reset capability
 - Secure session management
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
+- Generic DRF View
