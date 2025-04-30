@@ -41,17 +41,17 @@ pip install -r requirements.txt
 
 ### 5. Run Migrations
 ```bash
-python src/manage.py migrate
+python manage.py migrate
 ```
 
 ### 6. Create Superuser (Optional)
 ```bash
-python src/manage.py createsuperuser
+python manage.py createsuperuser
 ```
 
 ### 7. Run Development Server
 ```bash
-python src/manage.py runserver
+python manage.py runserver
 ```
 
 The development server will start at `http://127.0.0.1:8000/`
